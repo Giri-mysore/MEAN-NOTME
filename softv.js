@@ -10,7 +10,7 @@ res.type('text/plain');
 res.send('Starting with my first MEAN STACK application from scratch.....');
 });
 
-// when url has /about after the application server path i.e. localhost /spityl493/127.0.0.1
+// when url has /about after the application server path i.e. localhost
 app.get('/about', function(req, res){
 res.type('text/plain');
 res.send('Need to write html code for my login page');
