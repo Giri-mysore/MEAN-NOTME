@@ -9,7 +9,6 @@ app.get('/', function(req, res){
 res.type('text/plain');
 res.send('Starting with my first MEAN STACK application from scratch.....');
 });
-
 // when url has /about after the application server path i.e. localhost or 127.0.0.1 if no callback i.e. off the grid
 app.get('/about', function(req, res){
 res.type('text/plain');
